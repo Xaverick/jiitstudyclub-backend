@@ -23,3 +23,4 @@ const semesterSchema = new schema({
 
 });
 
+module.exports = mongoose.model('Semester', semesterSchema);

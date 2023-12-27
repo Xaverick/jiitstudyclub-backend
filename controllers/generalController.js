@@ -8,7 +8,12 @@ module.exports.getSemester = async (req, res) => {
     res.json(sem);
 };
 
+
 module.exports.getSubject = async (req, res) => {
     const sub = await subject.findOne({ code: req.params.name });
     res.json(sub);
 }
+
+
+
+

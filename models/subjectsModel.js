@@ -38,6 +38,12 @@ const subjectSchema = new schema({
         type: String,
         default: [],
     }],
+
+    videos: [{
+        type: String,
+        default: [],
+    }],
+    
 });
 
 
